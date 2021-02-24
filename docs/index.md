@@ -1,4 +1,4 @@
-# Informe Práctica 1. Configuración de máquina virtual en el IaaS
+# Informe Práctica 2. Instalación y configuración de Visual Studio Code
 ## 1. Introducción
 
 Informe de la segunda práctica de la asignatura de **Desarrollo de Sistemas Informáticos**. En la práctica propuesta se ha realizado la instalación y configuración inicial del entorno de desarrollo **Visual Studio Code**, realizar pruebas con las sesiones colaborativas con **Visual Studio Live Share** y realizar el primer proyecto en **TypeScript**.
