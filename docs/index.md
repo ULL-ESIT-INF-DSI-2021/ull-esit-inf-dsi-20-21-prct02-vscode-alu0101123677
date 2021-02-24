@@ -33,9 +33,20 @@ En este apartado, llevaremos a cabo la configuración necesaria para conectarnos
 
 Al realizar la práctica anterior ya nos hemos asegurado que podemos establecer una **conexión SSH** desde nuestra **máquina local** a nuestra **máquina virtual del IaaS**, lo que debemos hacer ahora es abrir una instancia de **VSCode**, buscar e instalar la extensión de **VSCode** denominada *Remote - SHH*
 
-A continuación, pulsa la tecla ``F1``
+A continuación, pulsamos la tecla ``F1`` o la combinación de teclas ``Ctrl + Shift + P`` para mostrar la paleta de comandos, tecleamos ``ssh`` y pulse sobre ``Connect to Host...``. Al haber completado la configuración de la primera práctica, entre las opciones del menú desplegables aparecerá el nombre de nuestra máquina virtual. Al establecer la conexión ``ssh`` con la máquina virtual se iniciara una nueva instancia de **VSCode**. Para comprobar que se ha conectado a la máquina virtual de manera remota, abrimos una terminal desde el propio VSCode, pulsando la combinación de teclas ``Ctrl + Shift +``. En la terminal tecleamos el siguiente comando:
 
+```bash
+[~()]$hostname
+iaas-dsi13
+[~()]$
+```
+
+Podemos observar que en la esquina inferior izquierda de la interfaz, en un área de color verde, podremos ver el nombre de la máquina virtual a la que acaba de conectarse.
+
+ 
 ### 3.4 Sesiones colaborativas con Visual Studio Live Share
+
+
 
 ### 3.5 Primer proyecto en TypeScript: "Hola Mundo"
 
