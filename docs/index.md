@@ -1,27 +1,47 @@
 # Informe Práctica 1. Configuración de máquina virtual en el IaaS
 ## 1. Introducción
 
-Informe de la segunda práctica de la asignatura de **Desarrollo de Sistemas Informáticos**. En la práctica propuesta se ha realizado la instalación y configuración inicial del entorno de desarrollo **Visual Studio Code**
+Informe de la segunda práctica de la asignatura de **Desarrollo de Sistemas Informáticos**. En la práctica propuesta se ha realizado la instalación y configuración inicial del entorno de desarrollo **Visual Studio Code**, realizar pruebas con las sesiones colaborativas con **Visual Studio Live Share** y realizar el primer proyecto en **TypeScript**.
 
 ## 2. Objetivos
+
+El objetivo principal de la práctica es la preparación del entorno de desarrollo **Visual Studio Code**. Para conseguirlo se tienen los siguientes objetivos:
+
+* Instalación de **Visual Studio Code** y configuración para **conexión remota**.
+* Aprender a utilizar sesiones colaborativas con **Visual Studio Live Share**.
+* Realizar un proyecto en **TypeScript**.
 
 ## 3. Desarrollo
 
 ### 3.1 Tareas previas
 
-Para el desarrollo de la práctica cómo tal primero hay que hacer unas prepariones previas, lo primeros será aceptar la asignación de GitHub Classroom asociada a la práctica 2 para conseguir el repositorio correspondiente.
+Para el desarrollo de la práctica cómo tal primero hay que hacer unas prepariones previas, lo primeros será aceptar la asignación de **GitHub Classroom** asociada a la práctica 2 para conseguir el repositorio correspondiente.
 
-Lo siguiente será realizar la Github Page asociada al repositorio de la práctica 2.
+Lo siguiente será realizar la **Github Page** asociada al repositorio de la práctica 2.
 
 ### 3.2 Instalación y funcionalidad de VisualStudio Code
 
-### 3.3 Configuración de Visual Studio Code para conectarse a una máquina remota por SHH
+En mi caso ya tenía instalado **Visual Studio Code** con anterioridad, pero en el caso de que no se tenga instalado en nuestra máquina local, procedemos a instalarlo con el siguiente comando, siempre que estemos trabajo en una distribución **Linux Debian/Ubuntu**.
+
+```bash
+bruno@bruno-X550VX:~$ sudo apt install code
+```
+
+### 3.3 Configuración de Visual Studio Code para conectarse a una máquina remota por SSH
+
+En este apartado, llevaremos a cabo la configuración necesaria para conectarnos desde **VSCode** a una máquina remota por SSH, en concreto, a nuestra **máquina virtual**.
+
+Al realizar la práctica anterior ya nos hemos asegurado que podemos establecer una **conexión SSH** desde nuestra **máquina local** a nuestra **máquina virtual del IaaS**, lo que debemos hacer ahora es abrir una instancia de **VSCode**, buscar e instalar la extensión de **VSCode** denominada *Remote - SHH*
+
+A continuación, pulsa la tecla ``F1``
 
 ### 3.4 Sesiones colaborativas con Visual Studio Live Share
 
 ### 3.5 Primer proyecto en TypeScript: "Hola Mundo"
 
 ## 4. Conclusiones
+
+En conclusión, me parece que este tipo de prácticas introductorias son muy importantes debido a qué si no se ha utilizado entornos de desarrollo como **Visual Studio Code**, son herramientas útiles en el día a día, aportando facilidades en cuanto al trabajo en **conexión por remoto** o en la **colaboración para realizar trabajos en conjunto**.
 
 ## 5. Bibliografía
 
@@ -33,5 +53,5 @@ Lo siguiente será realizar la Github Page asociada al repositorio de la prácti
 
 **[Web de Jekyll](https://jekyllrb.com):** Sitio Web de Jekyll.
 
-**[What is Visual Studio Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/):** Documentación de Visual Studio Live Share
+**[What is Visual Studio Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/):** Documentación de Visual Studio Live Share.
 
