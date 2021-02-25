@@ -15,7 +15,7 @@ El objetivo principal de la práctica es la preparación del entorno de desarrol
 
 ### 3.1 Tareas previas
 
-Para el desarrollo de la práctica cómo tal primero hay que hacer unas prepariones previas, lo primeros será aceptar la asignación de **GitHub Classroom** asociada a la práctica 2 para conseguir el repositorio correspondiente.
+Para el desarrollo de la práctica cómo tal primero hay que hacer unas preparaciones previas, lo primeros será aceptar la asignación de **GitHub Classroom** asociada a la práctica 2 para conseguir el repositorio correspondiente.
 
 Lo siguiente será realizar la **Github Page** asociada al repositorio de la práctica 2.
 
@@ -113,7 +113,7 @@ El comando ``npm init --yes`` nos permite crear un fichero denominado ``package.
 
 Ahora abrimos el directorio ``~/hello-world`` en el explorador de **Visual Studio Code**. Para ello, vamos al menú ``File`` y hacemos clic en la opción ``Open Folder....`` A continuación, seleccionamos hello-world en el menú desplegable. Se abrirá una instancia de **VSCode** y en el explorador podremos ver el contenido de dicho directorio.
 
-También podemos añadir el directorio a un espacio de trabajo, *workspace*. Para ello, vamos al menú ``File`` y seleccione la opción ``Add Folder to Workspace...``. Seleccionamos ``hello-world`` en el menú desplegable. Si no teniamos un espacio de trabajo creado previamente, se creará uno nuevo y se añadirá el directorio al mismo. Guardamos el espacio de trabajo seleccionando la opción ``Save Workspace As...`` del menú ``File``, escribimos un nombre de fichero y pulsamos el botón ``OK``.
+También podemos añadir el directorio a un espacio de trabajo, *workspace*. Para ello, vamos al menú ``File`` y seleccione la opción ``Add Folder to Workspace...``. Seleccionamos ``hello-world`` en el menú desplegable. Si no teníamos un espacio de trabajo creado previamente, se creará uno nuevo y se añadirá el directorio al mismo. Guardamos el espacio de trabajo seleccionando la opción ``Save Workspace As...`` del menú ``File``, escribimos un nombre de fichero y pulsamos el botón ``OK``.
 
 ![workspace](img/5.%20workspace.png)
 
@@ -183,7 +183,7 @@ En conclusión, me parece que este tipo de prácticas introductorias son muy imp
 
 ## 5. Bibliografía
 
-**[Guión Práctica 2](https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/):** Guión de la práctica 2 de la asignatura de Desarrollo de Sistemas Informáticos.
+**[Guión Práctica 2](https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/):** Guion de la práctica 2 de la asignatura de Desarrollo de Sistemas Informáticos.
 
 **[Introducción a Markdown](https://guides.github.com/features/mastering-markdown/):** Guía sobre la utilización de Markdown.
 
@@ -193,3 +193,8 @@ En conclusión, me parece que este tipo de prácticas introductorias son muy imp
 
 **[What is Visual Studio Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/):** Documentación de Visual Studio Live Share.
 
+**[Remote development over SSH](https://code.visualstudio.com/docs/remote/ssh-tutorial):** Tutorial para conectarse remotamente desde **VSCode**.
+
+**[Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery):** Guía del **Extensión Marketplace** de **GitHub**.
+
+**[Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml)**
