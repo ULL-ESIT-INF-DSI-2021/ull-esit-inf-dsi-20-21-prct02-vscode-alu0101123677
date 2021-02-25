@@ -197,4 +197,4 @@ En conclusión, me parece que este tipo de prácticas introductorias son muy imp
 
 **[Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery):** Guía del **Extensión Marketplace** de **GitHub**.
 
-**[Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml)**
+**[Essential TypeScript: From Beginner to Pro by Adam Freeman](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml)**
