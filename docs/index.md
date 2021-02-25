@@ -27,6 +27,9 @@ En mi caso ya tenía instalado **Visual Studio Code** con anterioridad, pero en 
 bruno@bruno-X550VX:~$ sudo apt install code
 ```
 
+![Visual studio code](img/1.%20VIsual%20studio%20code.png)
+
+
 ### 3.3 Configuración de Visual Studio Code para conectarse a una máquina remota por SSH
 
 En este apartado, llevaremos a cabo la configuración necesaria para conectarnos desde **VSCode** a una máquina remota por SSH, en concreto, a nuestra **máquina virtual**.
