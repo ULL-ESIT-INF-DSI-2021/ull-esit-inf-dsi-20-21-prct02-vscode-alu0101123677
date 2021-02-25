@@ -125,10 +125,31 @@ Continuamos creando un fichero en el directorio ``hello-world`` denominado ``tsc
 
 En dicho fichero se especifican las opciones del compilador de **TypeScript**. Incluimos las siguientes líneas en dicho fichero:
 
-
+```bash
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "CommonJS"
+  }
+}
+```
 ![tsconfig](img/6.%20tsconfig.png)
 
+Estas opciones de configuración le indican al compilador de TypeScript que, en primer lugar, queremos generar código compatible con uno de los últimos estándares de JavaScript. En segundo lugar, que el código JavaScript producto de la compilación se almacenará en un directorio ``dist``. En tercer lugar, especificamos que el código fuente escrito en TypeScript se encuentra en el directorio ``src``. Por último, se indica un estándar para cargar código desde ficheros independientes.
 
+Ahora, añadimos un fichero con código **TypeScript**. Ejecutamos los siguientes comandos en la terminal de **VSCode**
+
+```bash
+[~/hello-world()]$pwd
+/home/usuario/hello-world
+[~/hello-world()]$mkdir src
+[~/hello-world()]$cd src
+[~/hello-world/src()]$touch index.ts
+[~/hello-world/src()]$ls
+index.ts
+```
 
 ## 4. Conclusiones
 
