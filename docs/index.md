@@ -125,7 +125,7 @@ Continuamos creando un fichero en el directorio ``hello-world`` denominado ``tsc
 
 En dicho fichero se especifican las opciones del compilador de **TypeScript**. Incluimos las siguientes líneas en dicho fichero:
 
-```bash
+```typescript
 {
   "compilerOptions": {
     "target": "ES2018",
@@ -150,6 +150,32 @@ Ahora, añadimos un fichero con código **TypeScript**. Ejecutamos los siguiente
 [~/hello-world/src()]$ls
 index.ts
 ```
+
+Abrimos el fichero index.ts y añadimos las siguientes líneas al mismo:
+
+```typescript
+let myString: string = "Hola Mundo";
+console.log(myString);
+```
+
+En la terminal de **VSCode**, compilamos el código ejecutando el siguiente comando:
+
+```bash
+[~/hello-world()]$tsc
+```
+
+Lo anterior habrá creado el directorio ``dist``, además del fichero ``index.js`` en su interior.
+
+Como puede observarse, la principal diferencia se encuentra en la declaración de la variable ``myString``. 
+
+Por último, ejecute el código JavaScript generado a partir del código TypeScript.
+
+```bash
+[~/hello-world()]$node dist/index.js
+Hola Mundo
+```
+
+![hola mundo](img/7.%20hola%20mundo.png)
 
 ## 4. Conclusiones
 
