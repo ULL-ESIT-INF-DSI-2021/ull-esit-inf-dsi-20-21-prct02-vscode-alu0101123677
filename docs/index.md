@@ -34,7 +34,7 @@ bruno@bruno-X550VX:~$ sudo apt install code
 
 En este apartado, llevaremos a cabo la configuración necesaria para conectarnos desde **VSCode** a una máquina remota por SSH, en concreto, a nuestra **máquina virtual**.
 
-Al realizar la práctica anterior ya nos hemos asegurado que podemos establecer una **conexión SSH** desde nuestra **máquina local** a nuestra **máquina virtual del IaaS**, lo que debemos hacer ahora es abrir una instancia de **VSCode**, buscar e instalar la extensión de **VSCode** denominada *Remote - SHH*
+Al realizar la práctica anterior ya nos hemos asegurado que podemos establecer una **conexión SSH** desde nuestra **máquina local** a nuestra **máquina virtual del IaaS**, lo que debemos hacer ahora es abrir una instancia de **VSCode**, buscar e instalar la extensión de **VSCode** denominada *Remote - SHH*.
 
 A continuación, pulsamos la tecla ``F1`` o la combinación de teclas ``Ctrl + Shift + P`` para mostrar la paleta de comandos, tecleamos ``ssh`` y pulse sobre ``Connect to Host...``. Al haber completado la configuración de la primera práctica, entre las opciones del menú desplegables aparecerá el nombre de nuestra máquina virtual. Al establecer la conexión ``ssh`` con la máquina virtual se iniciara una nueva instancia de **VSCode**. Para comprobar que se ha conectado a la máquina virtual de manera remota, abrimos una terminal desde el propio VSCode, pulsando la combinación de teclas ``Ctrl + Shift +``. En la terminal tecleamos el siguiente comando:
 
@@ -62,7 +62,7 @@ Una vez instaladas todas las extensiones necesarias podemos iniciar una sesión 
 
 ### 3.5 Primer proyecto en TypeScript: "Hola Mundo"
 
-Para empezar nos instalaremos las siguientes extensiones en nuestra máquina virtual
+Para empezar nos instalaremos las siguientes extensiones en nuestra máquina virtual.
 
 * Vim. Versión mejorada del editor de texto Vi.
 * ESLint. Permite realizar comprobaciones de estilo sobre ficheros que incluyan código fuente en **JavaScript** y **TypeScript**.
@@ -139,7 +139,7 @@ En dicho fichero se especifican las opciones del compilador de **TypeScript**. I
 
 Estas opciones de configuración le indican al compilador de TypeScript que, en primer lugar, queremos generar código compatible con uno de los últimos estándares de JavaScript. En segundo lugar, que el código JavaScript producto de la compilación se almacenará en un directorio ``dist``. En tercer lugar, especificamos que el código fuente escrito en TypeScript se encuentra en el directorio ``src``. Por último, se indica un estándar para cargar código desde ficheros independientes.
 
-Ahora, añadimos un fichero con código **TypeScript**. Ejecutamos los siguientes comandos en la terminal de **VSCode**
+Ahora, añadimos un fichero con código **TypeScript**. Ejecutamos los siguientes comandos en la terminal de **VSCode**.
 
 ```bash
 [~/hello-world()]$pwd
